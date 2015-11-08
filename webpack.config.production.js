@@ -40,7 +40,8 @@ module.exports = {
 	module: {
 		loaders: [
 			{ test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css!cssnext!postcss') },
-			{ test: /\.js$/, loaders: ['babel'], include: path.join(__dirname, 'lib') }
+			{ test: /\.js$/, loaders: ['babel'], include: path.join(__dirname, 'lib') },
+			{ test: /\.json$/, loader: 'json' }
 		]
 	},
 	cssnext: {
