@@ -1,0 +1,35 @@
+@import "./variables.css";
+
+/*
+Use `border-box` properly:
+https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*/
+html {
+	box-sizing: border-box;
+	color: var(--primary-color);
+	font-size: 14px;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+a {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+@media (--viewport-tablet) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (--viewport-large) {
+	html {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,11 @@
+/* custom properties */
+:root {
+	--primary-color: #555;
+}
+
+/* custom media queries */
+@custom-media --viewport-mobile (max-width: 40em);
+@custom-media --viewport-tablet (min-width: 40em);
+@custom-media --viewport-desktop (min-width: 64em);
+@custom-media --viewport-large (min-width: 90em);
+@custom-media --viewport-xlarge (min-width: 130em);
