@@ -2,4 +2,5 @@
 @import "normalize.css/normalize.css";
 
 /* Global CSS */
+@import "./common/fonts.css";
 @import "./common/elements.css";

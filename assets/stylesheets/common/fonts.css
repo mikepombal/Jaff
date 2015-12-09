@@ -1,0 +1,15 @@
+/* fonts */
+
+@font-face {
+	font-family: DroidSans;
+	src: url("../fonts/DroidSans.ttf") format("truetype");
+ }
+
+@font-face {
+	font-family: DroidSans-Bold;
+	src: url("../fonts/DroidSans-Bold.ttf") format("truetype");
+}
+
+:root {
+	font-family: DroidSans, Arial;
+}

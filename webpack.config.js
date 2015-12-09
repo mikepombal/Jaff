@@ -37,7 +37,8 @@ module.exports = {
 		loaders: [
 			{ test: /\.css$/, loader: 'style!css!postcss' },
 			{ test: /\.js$/, loaders: ['babel'], include: path.join(__dirname, 'lib') },
-			{ test: /\.json$/, loader: 'json' }
+			{ test: /\.json$/, loader: 'json' },
+			{ test: /\.(woff|ttf)$/, loader: 'url-loader'}
 		]
 	},
 	cssnext: {
