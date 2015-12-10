@@ -1,6 +1,7 @@
 /* custom properties */
 :root {
 	--primary-color: #555;
+	--body-color: #eee;
 }
 
 /* custom media queries */

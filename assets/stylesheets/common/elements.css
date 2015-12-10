@@ -5,6 +5,7 @@ Use `border-box` properly:
 https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 */
 html {
+	background-color: var(--body-color);
 	box-sizing: border-box;
 	color: var(--primary-color);
 	font-size: 14px;
