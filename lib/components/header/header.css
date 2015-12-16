@@ -1,3 +1,32 @@
+@import "../../../assets/stylesheets/common/variables.css";
+
+:root {
+	--font-color: #EAF7DE;
+	--background-color: #000;
+}
+
 .header {
-	background-color: yellow;
+	background-color: var(--background-color);
+	border-bottom: solid 0.2rem var(--background-color);
+	display: flex;
+	height: 4rem;
+	justify-content: center;
+}
+
+.header__link {
+	align-items: center;
+	border-bottom: solid 0.3rem var(--font-color);
+	color: var(--font-color);
+	cursor: pointer;
+	display: flex;
+	flex: 1 0 auto;
+	font-size: 1.5rem;
+	justify-content: center;
+	margin: 0 2rem;
+}
+
+@media (--viewport-tablet) {
+	.header__link {
+		flex: 0 0 15rem;
+	}
 }
