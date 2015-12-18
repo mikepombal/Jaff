@@ -1,13 +1,14 @@
 @import "../../../assets/stylesheets/common/variables.css";
 
 :root {
-	--font-color: #EAF7DE;
 	--background-color: #000;
+	--font-color: rgb(234, 247, 222);
+	--selected-color: rgb(236, 210, 145);
 }
 
 .header {
 	background-color: var(--background-color);
-	border-bottom: solid 0.2rem var(--background-color);
+	border-bottom: solid 0.3rem var(--background-color);
 	display: flex;
 	height: 4rem;
 	justify-content: center;
@@ -15,7 +16,7 @@
 
 .header__link {
 	align-items: center;
-	border-bottom: solid 0.3rem var(--font-color);
+	border-bottom: solid 0.3rem var(--background-color);
 	color: var(--font-color);
 	cursor: pointer;
 	display: flex;
@@ -23,6 +24,16 @@
 	font-size: 1.5rem;
 	justify-content: center;
 	margin: 0 2rem;
+}
+
+.header__link:hover {
+	border-bottom-color: var(--font-color);
+}
+
+.header__link--selected,
+.header__link--selected:hover {
+	border-bottom-color: var(--selected-color);
+	color: var(--selected-color);
 }
 
 @media (--viewport-tablet) {
