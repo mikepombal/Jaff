@@ -1,0 +1,48 @@
+@import "../../../../assets/stylesheets/common/variables.css";
+
+:root {
+	--dark-color: #000;
+	--height: 4.5rem;
+}
+
+.airport {
+	border: solid 2px var(--dark-color);
+	display: flex;
+	height: var(--height);
+	margin: 0.5rem;
+}
+
+.airport__iata {
+	align-items: center;
+	background-color: var(--dark-color);
+	color: var(--dark-font-color);
+	display: flex;
+	font-size: 1.8rem;
+	justify-content: center;
+	width: calc(var(--height) * 1.2);
+}
+
+.airport__details {
+	align-items: stretch;
+	display: flex;
+	flex: 1 0 auto;
+	flex-direction: column;
+
+}
+
+.airport__name {
+	align-items: center;
+	border-bottom: solid 1px var(--dark-color);
+	display: flex;
+	font-size: 1.1rem;
+	height: calc(var(--height) / 2);
+	padding-left: 0.5rem;
+}
+
+.airport__iso {
+	align-items: center;
+	display: flex;
+	flex: 1 0 auto;
+	font-style: italic;
+	padding-left: 0.5rem;
+}

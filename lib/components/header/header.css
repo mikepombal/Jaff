@@ -2,7 +2,6 @@
 
 :root {
 	--background-color: #000;
-	--font-color: rgb(234, 247, 222);
 	--selected-color: rgb(236, 210, 145);
 }
 
@@ -17,7 +16,7 @@
 .header__link {
 	align-items: center;
 	border-bottom: solid 0.3rem var(--background-color);
-	color: var(--font-color);
+	color: var(--dark-font-color);
 	cursor: pointer;
 	display: flex;
 	flex: 1 0 auto;
@@ -27,7 +26,7 @@
 }
 
 .header__link:hover {
-	border-bottom-color: var(--font-color);
+	border-bottom-color: var(--dark-font-color);
 }
 
 .header__link--selected,

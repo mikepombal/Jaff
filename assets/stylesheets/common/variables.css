@@ -2,6 +2,8 @@
 :root {
 	--primary-color: #555;
 	--body-color: #eee;
+
+	--dark-font-color: rgb(234, 247, 222);
 }
 
 /* custom media queries */
