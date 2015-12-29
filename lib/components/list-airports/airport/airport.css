@@ -9,7 +9,7 @@
 	border: solid 2px var(--dark-color);
 	display: flex;
 	height: var(--height);
-	margin: 0.5rem;
+	margin: 1rem 1rem 0 0;
 }
 
 .airport__iata {

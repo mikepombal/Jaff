@@ -1,4 +1,4 @@
-.list-airports {
+.list-airports__list {
 	display: flex;
 	flex-wrap: wrap;
 }
