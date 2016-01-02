@@ -1,0 +1,16 @@
+.select-airports__item {
+	display: flex;
+	max-width: 40rem;
+}
+
+.select-airports__iata {
+	flex: 0 0 5rem;
+}
+
+.select-airports__name {
+	flex: 1 0 auto;
+}
+
+.select-airports__button {
+	flex: 0 0 7rem;
+}
